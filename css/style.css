@@ -1,9 +1,10 @@
-/* nav related styles */
+/* shared items */
 body {
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
 }
 
+/* header section */
 .btn-primary {
     border-radius: 5px;
     background: #FD6E0A;
@@ -21,6 +22,14 @@ body {
     background-position: bottom right;
 }
 
+.sec-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+/* nav related styles */
 nav {
     display: flex;
     align-items: center;
@@ -78,11 +87,29 @@ nav a {
     margin-top: 5px;
     margin-bottom: 20px;
 }
-.banner-des{
+
+.banner-des {
     color: #757575;
     margin-top: 0;
     margin-bottom: 45px;
 }
-.banner-content{
+
+.banner-content {
     max-width: 500px;
+}
+
+/* main section */
+.about {
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 0;
+}
+
+.sec-des {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
 }
