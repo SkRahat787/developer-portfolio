@@ -99,6 +99,11 @@ nav a {
 }
 
 /* main section */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
 .about {
     padding: 130px;
     border-radius: 10px;
@@ -112,4 +117,26 @@ nav a {
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info {
+    text-align: center;
+    width: 185px;
+}
+.info-title{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 400;
+}
+.info-des{
+    color: #757575;
+    font-weight: bold;
+}
+#abt-info-des{
+    padding: 30px 150px;
 }
