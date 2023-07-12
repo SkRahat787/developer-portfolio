@@ -14,12 +14,19 @@ body {
     padding: 15px 35px;
 }
 
+.header {
+    background-color: #FFF8F3;
+    background-image: url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
 nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 0 200px;
-    
+
 }
 
 .nav-title {
@@ -47,14 +54,35 @@ nav a {
 .text-primary {
     color: #FD6E0A;
 }
-.header{
-    background-color: #FFF8F3;
-}
-.banner{
-    padding: 30px 30px 30px 150px;
+
+.banner {
+    padding: 30px 30px 0px 200px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
-.pro-pic{
+
+.pro-pic {
     width: 500px;
+}
+
+.banner-greetings {
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
+}
+
+.banner-title {
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.banner-des{
+    color: #757575;
+    margin-top: 0;
+    margin-bottom: 45px;
+}
+.banner-content{
+    max-width: 500px;
 }
